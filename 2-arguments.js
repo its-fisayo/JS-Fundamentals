@@ -12,4 +12,4 @@ function printMessage() {
     return message;
 }
 
-console.log(printMessage("bfb"))
+console.log(printMessage(""));

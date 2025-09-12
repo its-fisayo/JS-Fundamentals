@@ -6,8 +6,10 @@ function printMessage() {
         message += "No argument";
     } else if(args[1] == undefined) {
         message += args[0];
+    } else if(args[2] == undefined) {
+        message += args[0] + " " + args[1];
     }
     return message;
 }
 
-console.log(printMessage(""))
+console.log(printMessage(""));
