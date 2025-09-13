@@ -1,4 +1,4 @@
-let message = "";
+/*let message = "";
 const args = process.argv.slice(2);
 let x = parseInt(args[0]);
 
@@ -12,4 +12,13 @@ for(i = 0; i < x; i++) {
         message += "C is fun\n";
     }
 }
-console.log(message);
+console.log(message);*/
+const x = parseInt(process.argv[2]);
+
+if (isNaN(x)) {
+  console.log('Missing number of occurrences');
+} else {
+  for (let i = 0; i < x; i++) {
+    console.log('C is fun');
+  }
+}
